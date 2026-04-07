@@ -1,12 +1,13 @@
 import { Routes, Route } from 'react-router-dom'
 import Homepage from './pages/Homepage'
+import Navbar from './layout/Navbar'
 
 function App() {
 
   return (
     <>
       <div className=" d-flex flex-column min-vh-100">
-        {/* <Navbar /> */}
+        <Navbar />
 
         <main className={"flex-fill"}>
           <Routes>
